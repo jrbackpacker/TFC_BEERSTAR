@@ -23,7 +23,7 @@ public class Proveedor {
     @JoinColumn(name = "id_usuario", unique = true)
     private Usuario usuario;
 
-    @Column(name = "nombre", nullable = true)
+    @Column(name = "nombre", nullable = false)
     private String nombre;
 
     @Column(name = "direccion")
