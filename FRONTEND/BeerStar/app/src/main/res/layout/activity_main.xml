@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5BA233"
+    android:background="@drawable/fonfoc"
     android:padding="16dp">
 
 
@@ -12,7 +12,7 @@
         android:id="@+id/top_bar"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:background="#5BA233"
+        android:background="@color/gold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -27,7 +27,7 @@
             android:minWidth="120dp"
             android:paddingStart="8dp"
             android:paddingEnd="8dp"
-            android:background="#5BA233"
+            android:background="@color/gold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

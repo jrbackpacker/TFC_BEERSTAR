@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:background="#5BA233"
+    android:background="@color/gold"
     android:padding="8dp">
 
 
@@ -13,7 +13,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:contentDescription="@string/menu"
-        android:background="#5BA233"
+        android:background="@color/gold"
         android:src="@drawable/menu" />
 
     <TextView
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:text=""
-        android:textColor="#F2DE02"
-        android:background="#5BA233"
+        android:textColor="@color/black"
+        android:background="@color/gold"
         android:textSize="14sp" />
 </LinearLayout>

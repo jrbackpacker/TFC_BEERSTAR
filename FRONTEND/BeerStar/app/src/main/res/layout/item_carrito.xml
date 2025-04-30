@@ -20,7 +20,7 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginEnd="8dp"
-            android:scaleType="centerCrop"
+            android:scaleType="fitCenter"
             android:src="@drawable/carrito"
             android:contentDescription="@string/imagen_articulo_description" />
 
@@ -76,7 +76,7 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     app:icon="@drawable/menos"
-                    app:iconTint="@android:color/holo_green_dark"
+                    app:iconTint="@color/gold"
                     app:backgroundTint="@android:color/transparent"/>
 
                 <com.google.android.material.button.MaterialButton
@@ -85,7 +85,7 @@
                     android:layout_height="60dp"
                     app:icon="@drawable/mas"
                     android:layout_marginStart="8dp"
-                    app:iconTint="@android:color/holo_green_dark"
+                    app:iconTint="@color/gold"
                     app:backgroundTint="@android:color/transparent"/>
 
                 <com.google.android.material.button.MaterialButton
@@ -94,7 +94,7 @@
                     android:layout_height="60dp"
                     app:icon="@drawable/borrar"
                     android:layout_marginStart="8dp"
-                    app:iconTint="@android:color/holo_green_dark"
+                    app:iconTint="@color/gold"
                     app:backgroundTint="@android:color/transparent"/>
             </LinearLayout>
         </LinearLayout>

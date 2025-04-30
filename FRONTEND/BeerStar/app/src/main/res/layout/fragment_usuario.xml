@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fonfoc"
     android:padding="16dp">
 
     <LinearLayout
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="Iniciar sesión"
             android:backgroundTint="@color/purple_500"
-            android:textColor="@color/white"
+            android:textColor="@color/gold"
             android:layout_marginBottom="16dp"/>
 
         <Button
