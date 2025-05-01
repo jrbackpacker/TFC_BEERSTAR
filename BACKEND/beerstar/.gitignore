@@ -32,5 +32,10 @@ build/
 ### VS Code ###
 .vscode/
 
+.mvn/
 .env
 postgres/
+logs/
+test/
+*.log
+
