@@ -31,32 +31,28 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    // Excluir los archivos META-INF/io.netty.versions.properties
     packagingOptions {
         exclude("META-INF/INDEX.LIST")
         exclude("META-INF/DEPENDENCIES")
-        exclude("META-INF/io.netty.versions.properties")  // Excluye estos archivos
+        exclude("META-INF/io.netty.versions.properties")
     }
 }
 
 dependencies {
-    implementation(libs.appcompat) // androidx.appcompat:appcompat
-    implementation(libs.material) // com.google.android.material:material
-    implementation(libs.activity) // androidx.activity:activity
+    implementation(libs.appcompat)
+    implementation(libs.material)
+    implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.appdistribution.gradle) // androidx.constraintlayout:constraintlayout
-    testImplementation(libs.junit) // junit:junit
-    androidTestImplementation(libs.ext.junit) // androidx.test.ext:junit
-    androidTestImplementation(libs.espresso.core) // androidx.test.espresso:espresso-core
-    implementation(libs.picasso) // com.squareup.picasso:picasso
-    implementation(libs.retrofit) // com.squareup.retrofit2:retrofit
-    implementation(libs.gson) // com.squareup.retrofit2:converter-gson
-    implementation(libs.okhttp) // com.squareup.okhttp3:logging-interceptor
+    implementation(libs.firebase.appdistribution.gradle)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+    implementation(libs.picasso)
+    implementation(libs.retrofit)
+    implementation(libs.gson)
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging)
     implementation(libs.powerspinner)
     implementation(libs.itextg)
-
-
-    // Referencia a RecyclerView desde el archivo libs.versions.toml
-    implementation(libs.recyclerview) // Dependencia de RecyclerView
+    implementation(libs.recyclerview)
 }
-
