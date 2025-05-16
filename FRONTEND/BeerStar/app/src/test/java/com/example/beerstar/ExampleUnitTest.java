@@ -1,4 +1,4 @@
-package com.example.beerstar;
+package com.tfc.beerstar;
 
 import org.junit.Test;
 

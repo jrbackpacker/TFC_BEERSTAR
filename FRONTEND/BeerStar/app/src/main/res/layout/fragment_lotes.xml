@@ -4,10 +4,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fonfoc"
+    android:orientation="vertical"
+    android:background="@drawable/lager"
     android:padding="16dp">
 
-    <!-- RecyclerView para mostrar los lotes -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewLotes"
         android:layout_width="0dp"

@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fonfoc"
+    android:background="@drawable/lager"
     android:orientation="vertical">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -37,8 +37,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Finalizar Compra"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="@color/gold"/>
+            android:backgroundTint="#FFCC24"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 </LinearLayout>

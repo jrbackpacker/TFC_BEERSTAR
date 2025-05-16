@@ -2,7 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gold">
+    android:background="#FFCC24">
 
     <!-- Contenido Scrollable -->
     <ScrollView
@@ -21,37 +21,33 @@
                 android:id="@+id/textUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text=""
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
 
-            <TextView
-                android:id="@+id/textFecha"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Fecha: ..."
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp"/>
-
-            <TextView
-                android:id="@+id/textArticulos"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Artículos:"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:background="@android:color/darker_gray"
-                android:padding="8dp"
-                android:layout_marginBottom="12dp"/>
 
             <TextView
                 android:id="@+id/textArticulosLista"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Detalle del pedido"
+                android:textAlignment="center"
                 android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/textArticulos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@color/white"
+                android:padding="8dp"
+                android:layout_marginBottom="12dp"/>
 
             <TextView
                 android:id="@+id/textTotal"
@@ -76,7 +72,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Botones fijos abajo -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,19 +86,19 @@
             android:layout_height="wrap_content"
             android:text="Abrir PDF"
             android:textSize="16sp"
-            android:textColor="#ffffff"
-            android:backgroundTint="#607D8B"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
             android:layout_marginEnd="8dp" />
 
         <Button
-            android:id="@+id/buttonProcederPago"
+            android:id="@+id/buttonRealizarPedido"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Proceder al Pago"
+            android:text="Realizar pedido"
             android:textSize="16sp"
-            android:textColor="#ffffff"
-            android:backgroundTint="#00796B" />
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 </LinearLayout>

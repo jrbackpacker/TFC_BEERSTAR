@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fonfoc"
+    android:background="@drawable/lager"
+    android:orientation="vertical"
     android:padding="16dp">
 
     <!-- Spinner para seleccionar tipo de filtro -->
@@ -15,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginEnd="8dp"
-        android:entries="@array/filtros" />
+        android:entries="@array/filtros_tienda" />
 
     <!-- Campo para escribir el valor del filtro -->
     <EditText

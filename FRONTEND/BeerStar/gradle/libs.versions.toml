@@ -1,5 +1,5 @@
 [versions]
-agp = "8.8.2"
+agp = "8.3.2"
 appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.10.1"
@@ -16,7 +16,14 @@ powerspinner = "1.2.7"
 itextg = "5.5.10"
 firebase-appdistribution-gradle = "5.1.1"
 
+# Versiones actualizadas para Dialogflow
+dialogflow = "4.34.0"
+grpc = "1.69.1"
+protobuf-java = "3.25.1"
+google-auth = "1.33.1"
+
 [libraries]
+# Librerías base
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
@@ -34,5 +41,14 @@ powerspinner = { module = "com.github.skydoves:powerspinner", version.ref = "pow
 firebase-appdistribution-gradle = { group = "com.google.firebase", name = "firebase-appdistribution-gradle", version.ref = "firebase-appdistribution-gradle" }
 itextg = { group = "com.itextpdf", name = "itextg", version.ref = "itextg" }
 
+# Librerías de Dialogflow (actualizadas)
+dialogflow = { group = "com.google.cloud", name = "google-cloud-dialogflow", version.ref = "dialogflow" }
+grpc-okhttp = { group = "io.grpc", name = "grpc-okhttp", version.ref = "grpc" }
+grpc-stub = { group = "io.grpc", name = "grpc-stub", version.ref = "grpc" }
+grpc-protobuf = { group = "io.grpc", name = "grpc-protobuf", version.ref = "grpc" }
+protobuf-javautil = { group = "com.google.protobuf", name = "protobuf-java-util", version.ref = "protobuf-java" }
+google-auth = { group = "com.google.auth", name = "google-auth-library-oauth2-http", version.ref = "google-auth" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.0" }
